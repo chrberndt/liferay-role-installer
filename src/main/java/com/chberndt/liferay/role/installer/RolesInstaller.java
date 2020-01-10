@@ -1,4 +1,4 @@
-package com.chberndt.liferay.install;
+package com.chberndt.liferay.role.installer;
 
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.json.JSONArray;
@@ -85,7 +85,7 @@ public class RolesInstaller {
 	}
 
 	private static final String _DEPENDENCIES_PATH =
-		"com/chberndt/liferay/install/dependencies/";
+		"com/chberndt/liferay/role/installer/dependencies/";
 	
 	private static final Log _log = LogFactoryUtil.getLog(RolesInstaller.class);
 	

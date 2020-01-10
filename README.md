@@ -1,2 +1,2 @@
-# liferay-roles-deployment
-An example of how to create and configure Liferay Roles with a LifecycleAction Component.
+# liferay-role-installer
+An example of how to install Liferay Roles with a Component.

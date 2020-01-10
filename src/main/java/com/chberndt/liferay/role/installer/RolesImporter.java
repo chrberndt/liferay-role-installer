@@ -1,4 +1,4 @@
-package com.chberndt.liferay.install;
+package com.chberndt.liferay.role.installer;
 
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.json.JSONArray;
