@@ -1,6 +1,5 @@
 package com.chberndt.liferay.install;
 
-import com.chberndt.liferay.lifecycle.action.GlobalStartupAction;
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.json.JSONArray;
 import com.liferay.portal.kernel.json.JSONFactory;
@@ -88,7 +87,7 @@ public class RolesInstaller {
 	private static final String _DEPENDENCIES_PATH =
 		"com/chberndt/liferay/install/dependencies/";
 	
-	private static final Log _log = LogFactoryUtil.getLog(GlobalStartupAction.class);
+	private static final Log _log = LogFactoryUtil.getLog(RolesInstaller.class);
 	
 	@Reference
 	private JSONFactory _jsonFactory;
